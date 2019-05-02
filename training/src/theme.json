@@ -1,0 +1,215 @@
+{
+  "palette": {
+    "primary": {
+      "main": "#196ECF"
+    },
+    "error": {
+      "main": "#E91B18"
+    },
+    "textPrimary": {
+      "main": "#2D2D39"
+    },
+    "textSecondary": {
+      "main": "#757588"
+    }
+  },
+  "typography": {
+    "fontFamily": "UHCSans-SemiBold",
+    "useNextVariants": true
+  },
+  "props": {
+    "MuiAppBar": {
+      "position": "static",
+      "color": "default"
+    },
+    "MuiButton": {
+      "variant": "outlined"
+    },
+    "MuiFormControl": {
+      "margin": "normal",
+      "variant": "outlined",
+      "fullWidth": true
+    },
+    "MuiInputLabel": {
+      "shrink": true
+    },
+    "MuiTextField": {
+      "variant": "outlined",
+      "fullWidth": true
+    },
+    "MuiOutlinedInput": {
+      "labelWidth": 0
+    },
+    "MuiPrivateNotchedOutline": {
+      "labelWidth": 0
+    },
+    "MuiSelect": {
+      "displayEmpty": true
+    }
+  },
+  "overrides": {
+    "MuiAppBar": {
+      "colorDefault": {
+        "backgroundColor": "#FFF"
+      }
+    },
+    "MuiBackdrop": {
+      "root": {
+        "backgroundColor": "#D8D8D8",
+        "opacity": "0.5 !important"
+      }
+    },
+    "MuiButton": {
+      "root": {
+        "font-size": 16,
+        "fontWeight": 600,
+        "textTransform": "capitalize",
+        "minWidth": "100px"
+      },
+      "outlined": {
+        "color": "#757588"
+      }
+    },
+    "MuiButtonBase": {
+      "root": {
+        "&$disabled": {
+          "backgroundColor": "#E0E0E0",
+          "borderColor": "#E0E0E0",
+          "color": "#757588"
+        }
+      }
+    },
+    "MuiDialog": {
+      "paper": {
+        "maxWidth": "727px"
+      }
+    },
+    "MuiDialogActions": {
+      "action": {
+        "margin": "0px 10px"
+      },
+      "root": {
+        "margin": "8px 0px",
+        "padding": "30px"
+      }
+    },
+    "MuiDialogContent": {
+      "root": {
+        "padding": " 20px 30px"
+      }
+    },
+    "MuiDialogTitle": {
+      "root": {
+        "backgroundColor": "#196ECF",
+        "color": "white",
+        "fontFamily": "UHCSans-SemiBold",
+        "fontStyle": "normal",
+        "fontWeight": 500,
+        "fontSize": "1.25rem",
+        "lineHeight": 1.6,
+        "textAlign": "center",
+        "textTransform": "Uppercase",
+        "alignContent": "center",
+        "justifyContent": "center",
+        "padding": "16px"
+      }
+    },
+    "MuiFormHelperText": {
+      "contained": {
+        "margin": "8px 0px 0px !important"
+      },
+      "error": {
+        "color": "#E91B18 !important",
+        "font-family": "UHCSans-Medium",
+        "font-size": "12px",
+        "position": "absolute !important",
+        "top": "95%"
+      }
+    },
+    "MuiInputBase": {
+      "root": {
+        "color": "#757588",
+        "fontSize": 16,
+        "fontWeight": 500,
+        "height": 44,
+        "&$disabled": {
+          "color": "rgba(0, 0, 0, 0.38)"
+        }
+      },
+      "input": {
+        "color": "initial"
+      }
+    },
+    "MuiInputLabel": {
+      "root": {
+        "color": "#767588",
+        "fontFamily": "UHCSans-SemiBold",
+        "fontSize": "14px"
+      },
+      "formControl": {
+        "transform": "translate(0px, -20px) scale(1) !important;",
+        "width": "100%",
+        "display": "flex",
+        "justifyContent": "space-between"
+      }
+    },
+    "MuiListItem": {
+      "button": {
+        "&:hover": {
+          "backgroundColor": "#196ECF",
+          "color": "#FFFFFF"
+        }
+      },
+      "root": {
+        "&$selected": {
+          "backgroundColor": "#196ECF !important",
+          "color": "#FFFFFF !important"
+        }
+      },
+      "selected": {}
+    },
+    "MuiMenuItem": {
+      "gutters": {
+        "paddingBottom": "5px",
+        "paddingLeft": "10px",
+        "paddingTop": "5px"
+      },
+      "root": {
+        "textTransform": "capitalize"
+      }
+    },
+    "MuiOutlinedInput": {
+      "root": {
+        "&:hover:not($disabled):not($focused):not($error) $notchedOutline": {
+          "borderColor": "#196ECF"
+        },
+        "&$error": {
+          "borderColor": "#E91B18"
+        }
+      },
+      "input": {
+        "padding": "11.5px 14px"
+      }
+    },
+    "MuiPrivateNotchedOutlined": {
+      "root": {
+        "border-radius": 2
+      }
+    },
+    "MuiSelect": {
+      "select": {
+        "&$disabled": {
+          "color": "rgba(0, 0, 0, 0.38)"
+        }
+      },
+      "selectMenu": {
+        "textTransform": "capitalize"
+      }
+    },
+    "MuiToolbar": {
+      "root": {
+        "height": "inherit"
+      }
+    }
+  }
+}
